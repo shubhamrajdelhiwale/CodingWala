@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coding Wale - Share Your Coding Journey</title>
+  <link rel="stylesheet" href="output.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      
+      <!-- Logo Section -->
+      <div class="flex items-center space-x-2">
+        <!-- Logo Box -->
+        <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">
+          <span>C.W</CW></span>
+        </div>
+        <!-- Logo Text -->
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+          Coding Wale
+        </h1>
+      </div>
+      
+      <!-- Navigation -->
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="#projects" class="text-gray-700 hover:text-blue-500 transition-colors">Projects</a>
+        <a href="#achievements" class="text-gray-700 hover:text-blue-500 transition-colors">Achievements</a>
+        <a href="#community" class="text-gray-700 hover:text-blue-500 transition-colors">Community</a>
+      </nav>
+      
+      <!-- Action Buttons -->
+      <div class="flex items-center space-x-4">
+        <button class="hidden md:flex text-sm px-4 py-2 border border-gray-300 rounded hover:bg-gray-100 transition">Sign In</button>
+        <button class="text-sm px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded shadow hover:shadow-lg transition duration-300">
+          Share Project
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="relative min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 overflow-hidden">
+  <!-- Background effects -->
+  <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(59,130,246,0.2)_0%,transparent_50%)] opacity-10"></div>
+  <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+  <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen text-center">
+    <div class="mb-8">
+      <div class="inline-flex items-center space-x-2 bg-white/50 backdrop-blur-sm border border-gray-300 rounded-full px-6 py-3 mb-6">
+        <!-- Trophy icon (SVG inline) -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3h8v4m-4 7v6m0-6H6a2 2 0 01-2-2V7h12v4a2 2 0 01-2 2h-4z" />
+        </svg>
+        <span class="text-sm text-gray-700 font-medium">Showcase • Celebrate • Connect</span>
+      </div>
+
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
+        Share Your<br />
+        <span class="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+          Coding Journey
+        </span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8 leading-relaxed">
+        Join Coding Wale - where developers showcase projects, celebrate achievements, and build connections that matter.
+      </p>
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-4 mb-12">
+      <button class="bg-gradient-to-r from-blue-500 to-purple-600 hover:shadow-lg text-white text-lg px-8 py-6 rounded-lg transition duration-300 flex items-center justify-center gap-2">
+        <!-- Code icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+        </svg>
+        Start Sharing
+      </button>
+      <button class="border border-gray-300 hover:bg-purple-700/20 hover:border-purple-500 text-white text-lg px-8 py-6 rounded-lg transition duration-300 flex items-center justify-center gap-2">
+        <!-- Users icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M12 12a4 4 0 100-8 4 4 0 000 8z" />
+        </svg>
+        Explore Projects
+      </button>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-8 text-sm text-gray-300">
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></div>
+        <span>1000+ Projects</span>
+      </div>
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-blue-400 rounded-full animate-pulse delay-300"></div>
+        <span>500+ Developers</span>
+      </div>
+      <div class="flex items-center space-x-2">
+        <div class="w-2 h-2 bg-purple-400 rounded-full animate-pulse delay-700"></div>
+        <span>50+ Success Stories</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section --><section id="projects" class="py-16 bg-gray-50">
+  <!-- Container matches header: max width + horizontal padding -->
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center space-x-2 bg-white/50 backdrop-blur-sm border border-gray-300 rounded-full px-6 py-3 mb-4">
+        <span class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></span>
+        <span class="text-sm text-gray-600">Featured Projects</span>
+      </div>
+      <h2 class="text-4xl font-bold mb-4">
+        Discover Amazing
+        <span class="block bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Coding Projects</span>
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Explore innovative projects built by our talented community. Get inspired, learn new techniques, and connect with fellow developers.
+      </p>
+    </div>
+
+    <!-- Projects grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Example Project Card -->
+            <!-- Card 1 -->
+      <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Smart Expense Tracker</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          AI-powered expense tracking app with automatic categorization and insightful spending analysis. Features beautiful charts and budgeting tools.
+        </p>
+        <p class="text-sm text-gray-500 mb-2">👨‍💻 Rahul Gupta</p>
+        <div class="flex flex-wrap gap-2 text-xs mb-3">
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Vue.js</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Python</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">AI</span>
+        </div>
+        <div class="flex justify-between text-xs text-gray-500">
+          <span>👁 892</span>
+          <span>💬 15</span>
+          <span>⭐ 4.6</span>
+          <span>👍 89</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Code Syntax Highlighter</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          Lightning-fast syntax highlighter library supporting 50+ programming languages with customizable themes and plugins.
+        </p>
+        <p class="text-sm text-gray-500 mb-2">👨‍💻 Ankit Verma</p>
+        <div class="flex flex-wrap gap-2 text-xs mb-3">
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">JavaScript</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Library</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Open Source</span>
+        </div>
+        <div class="flex justify-between text-xs text-gray-500">
+          <span>👁 2103</span>
+          <span>💬 31</span>
+          <span>⭐ 4.9</span>
+          <span>👍 156</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Real-time Chat Dashboard</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          Modern chat application with real-time messaging, file sharing, and team collaboration features. Built for scalability.
+        </p>
+        <p class="text-sm text-gray-500 mb-2">👩‍💻 Sneha Patel</p>
+        <div class="flex flex-wrap gap-2 text-xs mb-3">
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Node.js</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Socket.io</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">React</span>
+        </div>
+        <div class="flex justify-between text-xs text-gray-500">
+          <span>👁 1847</span>
+          <span>💬 42</span>
+          <span>⭐ 4.7</span>
+          <span>👍 203</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Crypto Portfolio Tracker</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          Comprehensive cryptocurrency portfolio management tool with price alerts, news integration, and advanced analytics.
+        </p>
+        <p class="text-sm text-gray-500 mb-2">👨‍💻 Vikram Singh</p>
+        <div class="flex flex-wrap gap-2 text-xs mb-3">
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Next.js</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Crypto API</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Charts</span>
+        </div>
+        <div class="flex justify-between text-xs text-gray-500">
+          <span>👁 1456</span>
+          <span>💬 28</span>
+          <span>⭐ 4.5</span>
+          <span>👍 178</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Weather Forecast Widget</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          Beautiful and accurate weather widget with location-based forecasts, interactive maps, and customizable themes.
+        </p>
+        <p class="text-sm text-gray-500 mb-2">👩‍💻 Kavita Mehta</p>
+        <div class="flex flex-wrap gap-2 text-xs mb-3">
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">JavaScript</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">Weather API</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">CSS3</span>
+        </div>
+        <div class="flex justify-between text-xs text-gray-500">
+          <span>👁 734</span>
+          <span>💬 12</span>
+          <span>⭐ 4.4</span>
+          <span>👍 67</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Neural Network Visualizer</h3>
+        <p class="text-gray-600 text-sm mb-3">
+          Interactive web app to visualize how neural networks learn and make decisions. Built with React and D3.js.
+        </p>
+        <p class="text-sm text-gray-500 mb-2">👩‍💻 Priya Sharma</p>
+        <div class="flex flex-wrap gap-2 text-xs mb-3">
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">React</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">D3.js</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">ML</span>
+          <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded">TypeScript</span>
+        </div>
+        <div class="flex justify-between text-xs text-gray-500">
+          <span>👁 1205</span>
+          <span>💬 23</span>
+          <span>⭐ 4.8</span>
+          <span>👍 124</span>
+        </div>
+      </div>
+
+      <!-- Repeat cards here with the same styles -->
+    </div>
+
+    <!-- Button -->
+    <div class="text-center mt-12">
+      <button class="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-lg font-medium shadow hover:shadow-lg transition duration-300">
+        View All Projects
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="achievements" class="py-20 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center space-x-2 bg-white/50 backdrop-blur-sm border border-gray-300 rounded-full px-6 py-3 mb-6">
+        <span class="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
+        <span class="text-sm text-gray-600">Success Stories</span>
+      </div>
+
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+        Celebrate Your
+        <span class="block bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+          Coding Wins
+        </span>
+      </h2>
+
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Every milestone matters! Share your achievements, inspire others, 
+        and build your professional reputation in the developer community.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Achievement Card 1 -->
+      <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white text-xl font-bold">
+            🏆
+          </div>
+          <div class="flex-1">
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">1000+ GitHub Stars! 🌟</h3>
+            <p class="text-sm text-gray-600 mb-1">My open-source React component library just hit 1000 stars on GitHub! Thank you to the amazing developer community for your support.</p>
+            <p class="text-xs text-gray-500">Arjun Kumar • 2 hours ago • <span class="inline-block bg-blue-100 text-blue-600 text-xs px-2 py-0.5 rounded-full">Open Source</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat similar blocks for other achievements -->
+      
+      <!-- Achievement Card 2 -->
+      <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-purple-500 to-pink-600 flex items-center justify-center text-white text-xl font-bold">
+            🏆
+          </div>
+          <div class="flex-1">
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">Won Best Innovation Award 🏆</h3>
+            <p class="text-sm text-gray-600 mb-1">Our team's AI-powered code review tool won the Best Innovation Award at TechCrunch Hackathon. Proud of what we built in just 48 hours!</p>
+            <p class="text-xs text-gray-500">Team CodeGenius • 1 day ago • <span class="inline-block bg-purple-100 text-purple-600 text-xs px-2 py-0.5 rounded-full">Hackathon</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Continue similarly for other achievements -->
+
+      
+      <!-- Card 3 -->
+      <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-500 flex items-center justify-center text-white text-xl font-bold">
+            🚀
+          </div>
+          <div class="flex-1">
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">Featured on Product Hunt 🚀</h3>
+            <p class="text-sm text-gray-600 mb-1">My productivity app for developers got featured as #2 Product of the Day on Product Hunt! The feedback has been incredible.</p>
+            <p class="text-xs text-gray-500">Neha Agarwal • 3 days ago • <span class="inline-block bg-yellow-100 text-yellow-600 text-xs px-2 py-0.5 rounded-full">Product Launch</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center text-white text-xl font-bold">
+            ⚡
+          </div>
+          <div class="flex-1">
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">Completed 100 Day Coding Challenge ⚡</h3>
+            <p class="text-sm text-gray-600 mb-1">Just finished my 100 Days of Code challenge! Built 15 projects, learned 3 new frameworks, and made amazing connections.</p>
+            <p class="text-xs text-gray-500">Rohit Sharma • 1 week ago • <span class="inline-block bg-green-100 text-green-600 text-xs px-2 py-0.5 rounded-full">Personal Growth</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-indigo-500 to-blue-700 flex items-center justify-center text-white text-xl font-bold">
+            📈
+          </div>
+          <div class="flex-1">
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">Promoted to Senior Developer 📈</h3>
+            <p class="text-sm text-gray-600 mb-1">Excited to share that I've been promoted to Senior Full Stack Developer! Thank you to my team and mentors for believing in me.</p>
+            <p class="text-xs text-gray-500">Pooja Singh • 2 weeks ago • <span class="inline-block bg-indigo-100 text-indigo-600 text-xs px-2 py-0.5 rounded-full">Career</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-teal-500 to-cyan-600 flex items-center justify-center text-white text-xl font-bold">
+            🎯
+          </div>
+          <div class="flex-1">
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">Open Source Contribution Milestone 🎯</h3>
+            <p class="text-sm text-gray-600 mb-1">Made my 500th contribution to open source projects this year! It's been an incredible journey of learning and giving back.</p>
+            <p class="text-xs text-gray-500">Dev Patel • 2 weeks ago • <span class="inline-block bg-teal-100 text-teal-600 text-xs px-2 py-0.5 rounded-full">Open Source</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    </div>
+
+    <div class="text-center mt-12">
+      <button class="bg-gradient-to-r from-purple-600 to-blue-500 hover:shadow-lg text-white px-8 py-3 rounded-lg font-medium transition-all duration-300">
+        Share Your Achievement
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Footer -->
+<footer class="bg-white border-t border-gray-200">
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+      <!-- Brand Section -->
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center space-x-2 mb-4">
+          <!-- Logo Icon Box -->
+          <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">
+            C.W
+          </div>
+          <!-- Brand Title with Gradient Text -->
+          <h3 class="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+            Coding Wale
+          </h3>
+        </div>
+
+        <!-- Tagline / Description -->
+        <p class="text-gray-600 mb-6 max-w-md">
+          Where developers showcase their projects, celebrate achievements, and build 
+          meaningful connections in the coding community.
+        </p>
+
+        <!-- Social Media Icons -->
+        <div class="flex items-center space-x-4 text-gray-500">
+          <!-- Replace these with actual SVG icons -->
+          <a href="#" class="hover:text-blue-500 transition-colors">GitHub</a>
+          <a href="#" class="hover:text-blue-500 transition-colors">Twitter</a>
+          <a href="#" class="hover:text-blue-500 transition-colors">LinkedIn</a>
+          <a href="#" class="hover:text-blue-500 transition-colors">Email</a>
+        </div>
+      </div>
+
+      <!-- Platform Links -->
+      <div>
+        <h4 class="font-semibold text-gray-800 mb-4">Platform</h4>
+        <ul class="space-y-2 text-gray-600">
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Browse Projects</a></li>
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Share Project</a></li>
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Achievements</a></li>
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Community</a></li>
+        </ul>
+      </div>
+
+      <!-- Support Links -->
+      <div>
+        <h4 class="font-semibold text-gray-800 mb-4">Support</h4>
+        <ul class="space-y-2 text-gray-600">
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Help Center</a></li>
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Guidelines</a></li>
+          <li><a href="#" class="hover:text-blue-500 transition-colors">Contact Us</a></li>
+          <li><a href="#" class="hover:text-blue-500 transition-colors">API Docs</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Footer Bar -->
+    <div class="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
+      <!-- Copyright -->
+      <p class="text-gray-500 text-sm">
+        © 2025 Coding Wale. Made with 
+        <span class="text-red-500">❤️</span> 
+        for developers.
+      </p>
+
+      <!-- Policy Links -->
+      <div class="flex items-center space-x-6 mt-4 md:mt-0 text-sm text-gray-600">
+        <a href="#" class="hover:text-blue-500 transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-blue-500 transition-colors">Terms of Service</a>
+        <a href="#" class="hover:text-blue-500 transition-colors">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
